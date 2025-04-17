@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Job Detection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4e73df;
+            --secondary-color: #1cc88a;
+            --danger-color: #e74a3b;
+            --dark-bg: #212529;
+            --light-bg: #f8f9fa;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-bg);
+            padding-top: 50px;
+            transition: background-color 0.3s ease;
+        }
+        
+        body.dark-mode {
+            background-color: var(--dark-bg);
+            color: white;
+        }
+        
+        .container {
+            max-width: 800px;
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        
+        .dark-mode h1 {
+            color: white;
+        }
+        
+        .form-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: var(--card-shadow);
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .dark-mode .form-container {
+            background-color: #2d3748;
+            box-shadow: 0 4px 6px rgba(255, 255, 255, 0.07);
+        }
+        
+        .form-label {
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        .dark-mode .form-label {
+            color: #e2e8f0;
+        }
+        
+        .form-control, .form-select {
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            padding: 10px 15px;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+        
+        .dark-mode .form-control, .dark-mode .form-select {
+            background-color: #4a5568;
+            border-color: #2d3748;
+            color: white;
+        }
+        
+        .form-control:focus, .form-select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2e59d9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+        
+        .result-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: var(--card-shadow);
+            margin-top: 20px;
+            animation: fadeIn 0.5s, slideUp 0.5s;
+            overflow: hidden;
+        }
+        
+        .dark-mode .result-card {
+            background-color: #2d3748;
+            color: white;
+            box-shadow: 0 4px 6px rgba(255, 255, 255, 0.07);
+        }
+        
+        .card-title {
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .alert {
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .alert i {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+        
+        .alert-success {
+            background-color: rgba(28, 200, 138, 0.15);
+            border-left: 4px solid var(--secondary-color);
+            color: #1cc88a;
+        }
+        
+        .dark-mode .alert-success {
+            background-color: rgba(28, 200, 138, 0.1);
+            color: #2ae9a2;
+        }
+        
+        .alert-danger {
+            background-color: rgba(231, 74, 59, 0.15);
+            border-left: 4px solid var(--danger-color);
+            color: #e74a3b;
+        }
+        
+        .dark-mode .alert-danger {
+            background-color: rgba(231, 74, 59, 0.1);
+            color: #ff6b6b;
+        }
+        
+        .confidence-meter {
+            height: 8px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        
+        .dark-mode .confidence-meter {
+            background-color: #4a5568;
+        }
+        
+        .confidence-value {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.5s ease-out;
+        }
+        
+        .genuine-confidence {
+            background-color: var(--secondary-color);
+        }
+        
+        .fake-confidence {
+            background-color: var(--danger-color);
+        }
+        
+        #theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #f8f9fa;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        .dark-mode #theme-toggle {
+            background-color: #4a5568;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from { transform: translateY(20px); }
+            to { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    
+    <div class="container">
+        <h1 class="text-center mb-4">Fake Job Post Detector</h1>
+        
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="form-container">
+                    <form id="jobDetectionForm">
+                        <div class="mb-3">
+                            <label for="job_description" class="form-label">
+                                <i class="fas fa-file-alt me-2"></i>Job Description
+                            </label>
+                            <textarea class="form-control" id="job_description" rows="5" required placeholder="Paste the job description here..."></textarea>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="has_company_logo" class="form-label">
+                                        <i class="fas fa-building me-2"></i>Company Logo
+                                    </label>
+                                    <select class="form-select" id="has_company_logo">
+                                        <option value="0">No</option>
+                                        <option value="1">Yes</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="telecommuting" class="form-label">
+                                        <i class="fas fa-home me-2"></i>Telecommuting
+                                    </label>
+                                    <select class="form-select" id="telecommuting">
+                                        <option value="0">No</option>
+                                        <option value="1">Yes</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="location" class="form-label">
+                                <i class="fas fa-map-marker-alt me-2"></i>Location
+                            </label>
+                            <input type="text" class="form-control" id="location" placeholder="Enter job location (e.g., New York, Remote)">
+                        </div>
+                        
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search me-2"></i>Analyze Job Post
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="resultContainer" class="mt-4" style="display: none;">
+                    <div class="card result-card">
+                        <div class="card-header bg-transparent">
+                            <h5 class="mb-0">Analysis Results</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" id="predictionResult">Job Authenticity</h5>
+                            <p class="card-text" id="confidenceText">Confidence:</p>
+                            
+                            <div class="confidence-meter">
+                                <div class="confidence-value" id="confidenceMeter" style="width: 0%"></div>
+                            </div>
+                            
+                            <div id="alertContainer"></div>
+                            
+                            <div class="mt-4" id="jobTipsContainer" style="display: none;">
+                                <h6 class="fw-bold"><i class="fas fa-lightbulb me-2"></i>Job Search Tips</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item bg-transparent">Verify the company through their official website</li>
+                                    <li class="list-group-item bg-transparent">Research the company on professional networks</li>
+                                    <li class="list-group-item bg-transparent">Be cautious of jobs asking for payment or personal financial information</li>
+                                    <li class="list-group-item bg-transparent">Check for professional communication and reasonable job requirements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        });
+        
+        document.getElementById('jobDetectionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData();
+            formData.append('job_description', document.getElementById('job_description').value);
+            formData.append('has_company_logo', document.getElementById('has_company_logo').value);
+            formData.append('telecommuting', document.getElementById('telecommuting').value);
+            formData.append('location', document.getElementById('location').value);
+
+            // Show a loading state
+            const submitButton = this.querySelector('button[type="submit"]');
+            submitButton.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Analyzing...';
+            submitButton.disabled = true;
+
+            fetch('/predict', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayResults(data);
+                
+                // Reset button state
+                submitButton.innerHTML = '<i class="fas fa-search me-2"></i>Analyze Job Post';
+                submitButton.disabled = false;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred while processing the job post.');
+                
+                // Reset button state
+                submitButton.innerHTML = '<i class="fas fa-search me-2"></i>Analyze Job Post';
+                submitButton.disabled = false;
+            });
+        });
+        
+        function displayResults(data) {
+            const resultContainer = document.getElementById('resultContainer');
+            const predictionResult = document.getElementById('predictionResult');
+            const confidenceText = document.getElementById('confidenceText');
+            const confidenceMeter = document.getElementById('confidenceMeter');
+            const alertContainer = document.getElementById('alertContainer');
+            const jobTipsContainer = document.getElementById('jobTipsContainer');
+
+            resultContainer.style.display = 'block';
+            jobTipsContainer.style.display = 'block';
+            
+            // Set confidence meter
+            confidenceMeter.style.width = `${data.confidence}%`;
+            
+            if (data.prediction_text === 'Fake') {
+                predictionResult.innerHTML = `<i class="fas fa-exclamation-triangle text-danger me-2"></i><span class="text-danger">Fake Job Post Detected</span>`;
+                alertContainer.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <strong>Warning: This job post appears to be fraudulent.</strong>
+                            <p class="mb-0">Be cautious of providing personal information or financial details. The listing contains suspicious elements commonly found in scam job postings.</p>
+                        </div>
+                    </div>
+                `;
+                confidenceMeter.classList.remove('genuine-confidence');
+                confidenceMeter.classList.add('fake-confidence');
+            } else {
+                predictionResult.innerHTML = `<i class="fas fa-check-circle text-success me-2"></i><span class="text-success">Genuine Job Post</span>`;
+                alertContainer.innerHTML = `
+                    <div class="alert alert-success">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <strong>This job post appears to be legitimate.</strong>
+                            <p class="mb-0">Our analysis indicates this is likely a genuine job posting. However, always verify opportunities through official company channels.</p>
+                        </div>
+                    </div>
+                `;
+                confidenceMeter.classList.remove('fake-confidence');
+                confidenceMeter.classList.add('genuine-confidence');
+            }
+
+            confidenceText.innerHTML = `Confidence: <strong>${data.confidence}%</strong>`;
+            
+            // Scroll to results
+            resultContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

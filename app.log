@@ -1,0 +1,538 @@
+2025-04-05 17:51:41,232 - __main__ - INFO - Model loaded successfully
+2025-04-05 17:51:41,276 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.23.51:5000
+2025-04-05 17:51:41,277 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 17:51:41,290 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-05 17:51:42,658 - __main__ - INFO - Model loaded successfully
+2025-04-05 17:51:42,670 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 17:51:42,674 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-05 17:52:06,941 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 17:52:06] "GET / HTTP/1.1" 200 -
+2025-04-05 17:52:07,256 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 17:52:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-05 17:52:11,293 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 17:52:11] "GET / HTTP/1.1" 200 -
+2025-04-05 17:52:29,831 - werkzeug - INFO - 192.168.23.51 - - [05/Apr/2025 17:52:29] "GET / HTTP/1.1" 200 -
+2025-04-05 17:52:30,788 - werkzeug - INFO - 192.168.23.51 - - [05/Apr/2025 17:52:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-05 17:52:40,582 - __main__ - INFO - Prediction result: Fake with confidence 65.81%
+2025-04-05 17:52:40,582 - werkzeug - INFO - 192.168.23.51 - - [05/Apr/2025 17:52:40] "POST /predict HTTP/1.1" 200 -
+2025-04-05 17:54:53,470 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\__init__.py', reloading
+2025-04-05 17:54:53,472 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\memory.py', reloading
+2025-04-05 17:54:53,495 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\logger.py', reloading
+2025-04-05 17:54:53,545 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-04-05 17:54:53,548 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-04-05 17:54:53,551 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2025-04-05 17:54:53,591 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\_generic_alias.py', reloading
+2025-04-05 17:54:54,014 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-05 17:54:55,309 - __main__ - INFO - Model loaded successfully
+2025-04-05 17:54:55,321 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 17:54:55,325 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-05 17:56:16,059 - werkzeug - INFO - 192.168.23.51 - - [05/Apr/2025 17:56:16] "GET / HTTP/1.1" 200 -
+2025-04-05 17:56:17,346 - werkzeug - INFO - 192.168.23.51 - - [05/Apr/2025 17:56:17] "GET / HTTP/1.1" 200 -
+2025-04-05 18:23:04,917 - __main__ - INFO - Model loaded successfully
+2025-04-05 18:23:04,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.23.51:5000
+2025-04-05 18:23:04,961 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 18:23:04,972 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-05 18:23:06,178 - __main__ - INFO - Model loaded successfully
+2025-04-05 18:23:06,191 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 18:23:06,195 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-05 18:23:15,128 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:23:15] "GET / HTTP/1.1" 200 -
+2025-04-05 18:23:18,016 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:23:18] "GET / HTTP/1.1" 200 -
+2025-04-05 18:24:04,576 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-05 18:24:04,577 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:24:04] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:28:03,910 - __main__ - INFO - Prediction result: Real with confidence 54.24%
+2025-04-05 18:28:03,910 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:28:03] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:28:06,166 - __main__ - INFO - Prediction result: Real with confidence 54.24%
+2025-04-05 18:28:06,166 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:28:06] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:28:07,008 - __main__ - INFO - Prediction result: Real with confidence 54.24%
+2025-04-05 18:28:07,008 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:28:07] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:28:07,740 - __main__ - INFO - Prediction result: Real with confidence 54.24%
+2025-04-05 18:28:07,741 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:28:07] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:29:50,098 - __main__ - INFO - Prediction result: Real with confidence 62.73%
+2025-04-05 18:29:50,099 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:29:50] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:29:53,380 - __main__ - INFO - Prediction result: Real with confidence 62.73%
+2025-04-05 18:29:53,381 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:29:53] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:29:55,698 - __main__ - INFO - Prediction result: Real with confidence 62.73%
+2025-04-05 18:29:55,699 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:29:55] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:30:01,271 - __main__ - INFO - Prediction result: Real with confidence 62.73%
+2025-04-05 18:30:01,272 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:30:01] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:30:02,129 - __main__ - INFO - Prediction result: Real with confidence 62.73%
+2025-04-05 18:30:02,129 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:30:02] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:30:05,681 - __main__ - INFO - Prediction result: Real with confidence 62.28%
+2025-04-05 18:30:05,682 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:30:05] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:31:57,238 - __main__ - INFO - Prediction result: Real with confidence 53.63%
+2025-04-05 18:31:57,238 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:31:57] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:33:20,185 - __main__ - INFO - Prediction result: Fake with confidence 61.4%
+2025-04-05 18:33:20,185 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:33:20] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:33:30,998 - __main__ - INFO - Prediction result: Fake with confidence 61.4%
+2025-04-05 18:33:30,998 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:33:30] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:33:32,843 - __main__ - INFO - Prediction result: Fake with confidence 61.4%
+2025-04-05 18:33:32,844 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:33:32] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:33:33,713 - __main__ - INFO - Prediction result: Fake with confidence 61.4%
+2025-04-05 18:33:33,714 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:33:33] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:33:35,538 - __main__ - INFO - Prediction result: Fake with confidence 61.4%
+2025-04-05 18:33:35,538 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:33:35] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:34:58,360 - __main__ - INFO - Prediction result: Fake with confidence 62.48%
+2025-04-05 18:34:58,361 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:34:58] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:35:01,641 - __main__ - INFO - Prediction result: Fake with confidence 62.48%
+2025-04-05 18:35:01,641 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:35:01] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:35:56,398 - __main__ - INFO - Prediction result: Fake with confidence 69.82%
+2025-04-05 18:35:56,399 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:35:56] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:36:41,225 - __main__ - INFO - Prediction result: Fake with confidence 61.3%
+2025-04-05 18:36:41,226 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:36:41] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:36:46,142 - __main__ - INFO - Prediction result: Fake with confidence 61.3%
+2025-04-05 18:36:46,143 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:36:46] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:37:39,423 - __main__ - INFO - Prediction result: Fake with confidence 61.3%
+2025-04-05 18:37:39,423 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:37:39] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:37:44,731 - __main__ - INFO - Prediction result: Fake with confidence 54.04%
+2025-04-05 18:37:44,731 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:37:44] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:41:40,761 - __main__ - INFO - Prediction result: Fake with confidence 54.35%
+2025-04-05 18:41:40,762 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:41:40] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:41:43,022 - __main__ - INFO - Prediction result: Fake with confidence 54.35%
+2025-04-05 18:41:43,023 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:41:43] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:41:50,649 - __main__ - INFO - Prediction result: Fake with confidence 54.35%
+2025-04-05 18:41:50,650 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:41:50] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:41:54,916 - __main__ - INFO - Prediction result: Real with confidence 53.58%
+2025-04-05 18:41:54,916 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:41:54] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:48:31,101 - __main__ - INFO - Model loaded successfully
+2025-04-05 18:48:31,127 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.23.51:5000
+2025-04-05 18:48:31,127 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 18:48:31,134 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-05 18:48:32,390 - __main__ - INFO - Model loaded successfully
+2025-04-05 18:48:32,402 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 18:48:32,405 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-05 18:48:53,696 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:48:53] "GET / HTTP/1.1" 200 -
+2025-04-05 18:48:53,951 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:48:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-05 18:49:53,478 - __main__ - INFO - Prediction result: Real with confidence 83.5%
+2025-04-05 18:49:53,479 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:49:53] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:49:56,094 - __main__ - INFO - Prediction result: Real with confidence 83.5%
+2025-04-05 18:49:56,095 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:49:56] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:49:56,951 - __main__ - INFO - Prediction result: Real with confidence 83.5%
+2025-04-05 18:49:56,952 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:49:56] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:49:57,895 - __main__ - INFO - Prediction result: Real with confidence 83.5%
+2025-04-05 18:49:57,896 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:49:57] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:49:58,801 - __main__ - INFO - Prediction result: Real with confidence 83.5%
+2025-04-05 18:49:58,802 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:49:58] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:50:59,562 - __main__ - INFO - Prediction result: Fake with confidence 50.34%
+2025-04-05 18:50:59,563 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:50:59] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:51:05,954 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-05 18:51:05,954 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:51:05] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:53:06,564 - __main__ - INFO - Prediction result: Real with confidence 52.74%
+2025-04-05 18:53:06,565 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:53:06] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:53:14,847 - __main__ - INFO - Prediction result: Real with confidence 52.74%
+2025-04-05 18:53:14,848 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:53:14] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:54:24,534 - __main__ - INFO - Prediction result: Real with confidence 78.35%
+2025-04-05 18:54:24,535 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:54:24] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:58:54,553 - __main__ - INFO - Prediction result: Real with confidence 78.35%
+2025-04-05 18:58:54,553 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:58:54] "POST /predict HTTP/1.1" 200 -
+2025-04-05 18:58:56,531 - __main__ - INFO - Prediction result: Real with confidence 78.35%
+2025-04-05 18:58:56,532 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 18:58:56] "POST /predict HTTP/1.1" 200 -
+2025-04-05 19:00:37,243 - __main__ - INFO - Prediction result: Real with confidence 73.96%
+2025-04-05 19:00:37,243 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 19:00:37] "POST /predict HTTP/1.1" 200 -
+2025-04-05 19:09:02,180 - __main__ - INFO - Prediction result: Real with confidence 55.04%
+2025-04-05 19:09:02,181 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 19:09:02] "POST /predict HTTP/1.1" 200 -
+2025-04-05 19:09:04,949 - __main__ - INFO - Prediction result: Real with confidence 55.04%
+2025-04-05 19:09:04,949 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 19:09:04] "POST /predict HTTP/1.1" 200 -
+2025-04-05 19:14:19,270 - __main__ - INFO - Prediction result: Real with confidence 55.04%
+2025-04-05 19:14:19,271 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 19:14:19] "POST /predict HTTP/1.1" 200 -
+2025-04-06 14:44:05,630 - __main__ - INFO - Model loaded successfully
+2025-04-06 14:44:05,827 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.134.51:5000
+2025-04-06 14:44:05,827 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 14:44:05,914 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-06 14:44:07,112 - __main__ - INFO - Model loaded successfully
+2025-04-06 14:44:07,124 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 14:44:07,128 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-06 14:44:20,976 - werkzeug - INFO - 192.168.134.51 - - [06/Apr/2025 14:44:20] "GET / HTTP/1.1" 200 -
+2025-04-06 14:44:21,621 - werkzeug - INFO - 192.168.134.51 - - [06/Apr/2025 14:44:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 14:44:42,661 - __main__ - INFO - Prediction result: Fake with confidence 57.49%
+2025-04-06 14:44:42,661 - werkzeug - INFO - 192.168.134.51 - - [06/Apr/2025 14:44:42] "POST /predict HTTP/1.1" 200 -
+2025-04-06 14:44:45,241 - __main__ - INFO - Prediction result: Fake with confidence 57.49%
+2025-04-06 14:44:45,241 - werkzeug - INFO - 192.168.134.51 - - [06/Apr/2025 14:44:45] "POST /predict HTTP/1.1" 200 -
+2025-04-07 11:52:58,884 - __main__ - INFO - Model loaded successfully
+2025-04-07 11:52:58,934 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.51:5000
+2025-04-07 11:52:58,935 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 11:52:58,946 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 11:53:00,939 - __main__ - INFO - Model loaded successfully
+2025-04-07 11:53:00,958 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 11:53:00,964 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-07 11:53:09,719 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:53:09] "GET / HTTP/1.1" 200 -
+2025-04-07 11:53:10,162 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:53:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 11:53:45,876 - __main__ - INFO - Prediction result: Fake with confidence 63.27%
+2025-04-07 11:53:45,877 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:53:45] "POST /predict HTTP/1.1" 200 -
+2025-04-07 11:55:57,929 - __main__ - INFO - Prediction result: Real with confidence 67.42%
+2025-04-07 11:55:57,929 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:55:57] "POST /predict HTTP/1.1" 200 -
+2025-04-07 11:56:12,716 - __main__ - INFO - Prediction result: Real with confidence 61.63%
+2025-04-07 11:56:12,718 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:56:12] "POST /predict HTTP/1.1" 200 -
+2025-04-07 11:56:15,608 - __main__ - INFO - Prediction result: Real with confidence 61.63%
+2025-04-07 11:56:15,609 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:56:15] "POST /predict HTTP/1.1" 200 -
+2025-04-07 11:57:07,693 - __main__ - INFO - Prediction result: Real with confidence 61.63%
+2025-04-07 11:57:07,695 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:57:07] "POST /predict HTTP/1.1" 200 -
+2025-04-07 11:57:41,644 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:57:41] "GET / HTTP/1.1" 200 -
+2025-04-07 11:58:48,123 - __main__ - INFO - Prediction result: Real with confidence 59.55%
+2025-04-07 11:58:48,124 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:58:48] "POST /predict HTTP/1.1" 200 -
+2025-04-07 11:59:59,524 - __main__ - INFO - Prediction result: Real with confidence 65.26%
+2025-04-07 11:59:59,525 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:59:59] "POST /predict HTTP/1.1" 200 -
+2025-04-07 12:03:10,468 - __main__ - INFO - Prediction result: Fake with confidence 54.69%
+2025-04-07 12:03:10,469 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:03:10] "POST /predict HTTP/1.1" 200 -
+2025-04-07 12:03:27,238 - __main__ - INFO - Prediction result: Fake with confidence 65.63%
+2025-04-07 12:03:27,240 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:03:27] "POST /predict HTTP/1.1" 200 -
+2025-04-07 12:04:25,911 - __main__ - INFO - Prediction result: Fake with confidence 65.63%
+2025-04-07 12:04:25,913 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:04:25] "POST /predict HTTP/1.1" 200 -
+2025-04-07 12:08:09,054 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:08:09] "GET / HTTP/1.1" 200 -
+2025-04-07 21:28:25,038 - __main__ - INFO - Model loaded successfully
+2025-04-07 21:28:25,076 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.51:5000
+2025-04-07 21:28:25,076 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 21:28:25,091 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 21:28:26,603 - __main__ - INFO - Model loaded successfully
+2025-04-07 21:28:26,617 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 21:28:26,621 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-07 21:28:37,925 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 21:28:37] "GET / HTTP/1.1" 200 -
+2025-04-07 21:28:38,220 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 21:28:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 21:30:04,720 - __main__ - INFO - Prediction result: Real with confidence 53.09%
+2025-04-07 21:30:04,721 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 21:30:04] "POST /predict HTTP/1.1" 200 -
+2025-04-07 21:30:51,938 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2025-04-07 21:30:52,615 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 21:30:53,818 - __main__ - INFO - Model loaded successfully
+2025-04-07 21:30:53,831 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 21:30:53,834 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-07 21:30:58,641 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\impute\\_base.py', reloading
+2025-04-07 21:30:59,288 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 21:31:00,506 - __main__ - INFO - Model loaded successfully
+2025-04-07 21:31:00,518 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 21:31:00,521 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-07 21:31:40,455 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\pipeline.py', reloading
+2025-04-07 21:31:40,487 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\utils\\metaestimators.py', reloading
+2025-04-07 21:31:40,503 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\base.py', reloading
+2025-04-07 21:31:40,543 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\utils\\_estimator_html_repr.py', reloading
+2025-04-07 21:31:40,563 - werkzeug - INFO -  * Detected change in 'C:\\Users\\choda\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\utils\\_metadata_requests.py', reloading
+2025-04-07 21:31:41,630 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-07 21:31:42,824 - __main__ - INFO - Model loaded successfully
+2025-04-07 21:31:42,836 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 21:31:42,838 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-08 09:39:54,106 - __main__ - INFO - Model loaded successfully
+2025-04-08 09:39:54,460 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.51:5000
+2025-04-08 09:39:54,461 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 09:39:54,600 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-08 09:39:56,596 - __main__ - INFO - Model loaded successfully
+2025-04-08 09:39:56,611 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 09:39:56,616 - werkzeug - INFO -  * Debugger PIN: 124-133-727
+2025-04-08 09:40:01,098 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:40:01] "GET / HTTP/1.1" 200 -
+2025-04-08 09:40:01,206 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:40:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-08 09:40:12,086 - __main__ - INFO - Prediction result: Fake with confidence 65.81%
+2025-04-08 09:40:12,086 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:40:12] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:41:30,440 - __main__ - INFO - Prediction result: Fake with confidence 55.51%
+2025-04-08 09:41:30,441 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:41:30] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:41:36,629 - __main__ - INFO - Prediction result: Real with confidence 50.64%
+2025-04-08 09:41:36,631 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:41:36] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:42:15,485 - __main__ - INFO - Prediction result: Real with confidence 50.64%
+2025-04-08 09:42:15,487 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:42:15] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:44:50,440 - __main__ - INFO - Prediction result: Real with confidence 56.48%
+2025-04-08 09:44:50,441 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:44:50] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:44:55,837 - __main__ - INFO - Prediction result: Real with confidence 50.22%
+2025-04-08 09:44:55,838 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:44:55] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:45:35,948 - __main__ - INFO - Prediction result: Real with confidence 54.01%
+2025-04-08 09:45:35,949 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:45:35] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:46:01,188 - __main__ - INFO - Prediction result: Real with confidence 54.01%
+2025-04-08 09:46:01,189 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:46:01] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:46:04,188 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:46:04] "GET / HTTP/1.1" 200 -
+2025-04-08 09:47:17,178 - __main__ - INFO - Prediction result: Fake with confidence 62.86%
+2025-04-08 09:47:17,179 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:47:17] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:49:52,894 - __main__ - INFO - Prediction result: Fake with confidence 62.86%
+2025-04-08 09:49:52,894 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:49:52] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:50:55,788 - __main__ - INFO - Prediction result: Real with confidence 81.57%
+2025-04-08 09:50:55,789 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:50:55] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:53:21,983 - __main__ - INFO - Prediction result: Real with confidence 74.15%
+2025-04-08 09:53:21,984 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:53:21] "POST /predict HTTP/1.1" 200 -
+2025-04-08 09:57:14,800 - __main__ - INFO - Prediction result: Real with confidence 74.15%
+2025-04-08 09:57:14,802 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 09:57:14] "POST /predict HTTP/1.1" 200 -
+2025-04-08 10:53:58,641 - __main__ - INFO - Model loaded successfully
+2025-04-08 10:53:58,961 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.51:5000
+2025-04-08 10:53:58,962 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 10:53:59,112 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-08 10:54:01,334 - __main__ - INFO - Model loaded successfully
+2025-04-08 10:54:01,355 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 10:54:01,364 - werkzeug - INFO -  * Debugger PIN: 784-669-215
+2025-04-08 10:54:04,378 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 10:54:04] "GET / HTTP/1.1" 200 -
+2025-04-08 10:54:04,874 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 10:54:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-08 10:56:20,473 - __main__ - INFO - Prediction result: Real with confidence 70.71%
+2025-04-08 10:56:20,474 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 10:56:20] "POST /predict HTTP/1.1" 200 -
+2025-04-08 10:58:17,605 - __main__ - INFO - Prediction result: Fake with confidence 65.81%
+2025-04-08 10:58:17,606 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 10:58:17] "POST /predict HTTP/1.1" 200 -
+2025-04-11 12:18:13,728 - __main__ - INFO - Model loaded successfully
+2025-04-11 12:18:13,927 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.51:5000
+2025-04-11 12:18:13,927 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 12:18:14,008 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-11 12:18:15,213 - __main__ - INFO - Model loaded successfully
+2025-04-11 12:18:15,225 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 12:18:15,231 - werkzeug - INFO -  * Debugger PIN: 216-180-733
+2025-04-11 12:26:32,358 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 12:26:32] "GET / HTTP/1.1" 200 -
+2025-04-11 12:26:32,508 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 12:26:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-11 12:26:44,779 - __main__ - INFO - Prediction result: Fake with confidence 65.81%
+2025-04-11 12:26:44,779 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 12:26:44] "POST /predict HTTP/1.1" 200 -
+2025-04-11 12:26:55,393 - __main__ - INFO - Prediction result: Fake with confidence 57.49%
+2025-04-11 12:26:55,393 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 12:26:55] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:05:38,367 - __main__ - INFO - Model loaded successfully
+2025-04-11 14:05:38,642 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.51:5000
+2025-04-11 14:05:38,643 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 14:05:38,733 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-11 14:05:40,785 - __main__ - INFO - Model loaded successfully
+2025-04-11 14:05:40,805 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 14:05:40,811 - werkzeug - INFO -  * Debugger PIN: 216-180-733
+2025-04-11 14:05:50,843 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:05:50] "GET / HTTP/1.1" 200 -
+2025-04-11 14:05:51,166 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:05:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-11 14:07:34,607 - __main__ - INFO - Prediction result: Real with confidence 76.32%
+2025-04-11 14:07:34,608 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:07:34] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:15:04,953 - __main__ - INFO - Prediction result: Fake with confidence 54.43%
+2025-04-11 14:15:04,954 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:15:04] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:15:17,333 - __main__ - INFO - Prediction result: Fake with confidence 54.43%
+2025-04-11 14:15:17,334 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:15:17] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:16:21,171 - __main__ - INFO - Prediction result: Fake with confidence 56.03%
+2025-04-11 14:16:21,173 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:16:21] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:16:27,017 - __main__ - INFO - Prediction result: Real with confidence 51.59%
+2025-04-11 14:16:27,018 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:16:27] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:17:45,197 - __main__ - INFO - Prediction result: Real with confidence 56.98%
+2025-04-11 14:17:45,198 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:17:45] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:18:12,518 - __main__ - INFO - Prediction result: Fake with confidence 58.06%
+2025-04-11 14:18:12,519 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:18:12] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:18:42,328 - __main__ - INFO - Prediction result: Real with confidence 66.86%
+2025-04-11 14:18:42,329 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:18:42] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:23:27,222 - __main__ - INFO - Prediction result: Real with confidence 54.5%
+2025-04-11 14:23:27,223 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:23:27] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:23:32,425 - __main__ - INFO - Prediction result: Real with confidence 54.5%
+2025-04-11 14:23:32,425 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:23:32] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:24:03,513 - __main__ - INFO - Prediction result: Fake with confidence 50.63%
+2025-04-11 14:24:03,514 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:24:03] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:24:22,965 - __main__ - INFO - Prediction result: Fake with confidence 50.63%
+2025-04-11 14:24:22,967 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:24:22] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:27:10,019 - __main__ - INFO - Prediction result: Fake with confidence 65.2%
+2025-04-11 14:27:10,020 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:27:10] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:36:23,560 - __main__ - INFO - Prediction result: Fake with confidence 56.98%
+2025-04-11 14:36:23,560 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:36:23] "POST /predict HTTP/1.1" 200 -
+2025-04-11 14:37:18,250 - __main__ - INFO - Prediction result: Fake with confidence 72.07%
+2025-04-11 14:37:18,250 - werkzeug - INFO - 127.0.0.1 - - [11/Apr/2025 14:37:18] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:24:38,327 - __main__ - INFO - Model loaded successfully
+2025-04-12 12:24:38,539 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.55.51:5000
+2025-04-12 12:24:38,540 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 12:24:38,617 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-12 12:24:39,914 - __main__ - INFO - Model loaded successfully
+2025-04-12 12:24:39,927 - werkzeug - WARNING -  * Debugger is active!
+2025-04-12 12:24:39,930 - werkzeug - INFO -  * Debugger PIN: 216-180-733
+2025-04-12 12:24:44,848 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:24:44] "GET / HTTP/1.1" 200 -
+2025-04-12 12:24:44,983 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:24:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-12 12:25:38,576 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:25:38] "GET / HTTP/1.1" 200 -
+2025-04-12 12:31:16,061 - __main__ - INFO - Prediction result: Fake with confidence 52.04%
+2025-04-12 12:31:16,061 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:31:16] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:31:26,739 - __main__ - INFO - Prediction result: Fake with confidence 51.99%
+2025-04-12 12:31:26,741 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:31:26] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:32:37,974 - __main__ - INFO - Prediction result: Real with confidence 74.99%
+2025-04-12 12:32:37,975 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:32:37] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:33:29,654 - __main__ - INFO - Prediction result: Fake with confidence 56.32%
+2025-04-12 12:33:29,654 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:33:29] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:34:11,298 - __main__ - INFO - Prediction result: Real with confidence 50.15%
+2025-04-12 12:34:11,298 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:34:11] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:34:21,308 - __main__ - INFO - Prediction result: Fake with confidence 56.56%
+2025-04-12 12:34:21,309 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:34:21] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:34:27,991 - __main__ - INFO - Prediction result: Real with confidence 50.15%
+2025-04-12 12:34:27,991 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:34:27] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:34:32,002 - __main__ - INFO - Prediction result: Real with confidence 50.15%
+2025-04-12 12:34:32,003 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:34:32] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:35:42,461 - __main__ - INFO - Prediction result: Real with confidence 54.06%
+2025-04-12 12:35:42,462 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:35:42] "POST /predict HTTP/1.1" 200 -
+2025-04-12 12:35:51,924 - __main__ - INFO - Prediction result: Real with confidence 63.99%
+2025-04-12 12:35:51,924 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:35:51] "POST /predict HTTP/1.1" 200 -
+2025-04-12 13:16:56,685 - __main__ - INFO - Prediction result: Real with confidence 63.99%
+2025-04-12 13:16:56,687 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:16:56] "POST /predict HTTP/1.1" 200 -
+2025-04-12 13:16:58,635 - __main__ - INFO - Prediction result: Real with confidence 63.99%
+2025-04-12 13:16:58,636 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:16:58] "POST /predict HTTP/1.1" 200 -
+2025-04-12 13:16:59,454 - __main__ - INFO - Prediction result: Real with confidence 63.99%
+2025-04-12 13:16:59,455 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:16:59] "POST /predict HTTP/1.1" 200 -
+2025-04-12 13:17:00,199 - __main__ - INFO - Prediction result: Real with confidence 63.99%
+2025-04-12 13:17:00,200 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:17:00] "POST /predict HTTP/1.1" 200 -
+2025-04-12 13:17:00,966 - __main__ - INFO - Prediction result: Real with confidence 63.99%
+2025-04-12 13:17:00,967 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:17:00] "POST /predict HTTP/1.1" 200 -
+2025-04-12 13:17:01,734 - __main__ - INFO - Prediction result: Real with confidence 63.99%
+2025-04-12 13:17:01,734 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:17:01] "POST /predict HTTP/1.1" 200 -
+2025-04-12 13:17:04,263 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:17:04] "GET / HTTP/1.1" 200 -
+2025-04-12 13:18:30,739 - __main__ - INFO - Prediction result: Fake with confidence 81.61%
+2025-04-12 13:18:30,740 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:18:30] "POST /predict HTTP/1.1" 200 -
+2025-04-12 13:19:36,203 - __main__ - INFO - Prediction result: Fake with confidence 73.89%
+2025-04-12 13:19:36,204 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 13:19:36] "POST /predict HTTP/1.1" 200 -
+2025-04-12 15:53:20,275 - __main__ - INFO - Prediction result: Fake with confidence 73.89%
+2025-04-12 15:53:20,277 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 15:53:20] "POST /predict HTTP/1.1" 200 -
+2025-04-12 15:53:22,345 - __main__ - INFO - Prediction result: Fake with confidence 73.89%
+2025-04-12 15:53:22,346 - werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 15:53:22] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:07:45,273 - __main__ - INFO - Model loaded successfully
+2025-04-14 11:07:45,470 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.186.51:5000
+2025-04-14 11:07:45,471 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 11:07:45,546 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-14 11:07:46,764 - __main__ - INFO - Model loaded successfully
+2025-04-14 11:07:46,777 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 11:07:46,780 - werkzeug - INFO -  * Debugger PIN: 216-180-733
+2025-04-14 11:07:53,256 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:07:53] "GET / HTTP/1.1" 200 -
+2025-04-14 11:07:53,487 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:07:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-14 11:08:44,084 - __main__ - INFO - Prediction result: Fake with confidence 57.49%
+2025-04-14 11:08:44,084 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:08:44] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:08:46,191 - __main__ - INFO - Prediction result: Fake with confidence 57.49%
+2025-04-14 11:08:46,192 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:08:46] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:09:07,805 - __main__ - INFO - Prediction result: Fake with confidence 57.49%
+2025-04-14 11:09:07,806 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:09:07] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:09:09,697 - __main__ - INFO - Prediction result: Fake with confidence 57.49%
+2025-04-14 11:09:09,698 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:09:09] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:11:07,886 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-14 11:11:07,886 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:11:07] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:14:05,166 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-14 11:14:05,166 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:14:05] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:14:05,802 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-14 11:14:05,803 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:14:05] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:14:05,964 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-14 11:14:05,964 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:14:05] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:14:06,148 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-14 11:14:06,150 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:14:06] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:14:06,298 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-14 11:14:06,299 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:14:06] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:14:06,522 - __main__ - INFO - Prediction result: Real with confidence 57.41%
+2025-04-14 11:14:06,522 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:14:06] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:23:46,527 - __main__ - ERROR - Error loading model: Can't get attribute '_RemainderColsList' on <module 'sklearn.compose._column_transformer' from 'C:\\Users\\Lavakumar\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\sklearn\\compose\\_column_transformer.py'>
+2025-04-14 11:23:46,606 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.52:5000
+2025-04-14 11:23:46,607 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 11:23:46,633 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-14 11:23:49,087 - __main__ - ERROR - Error loading model: Can't get attribute '_RemainderColsList' on <module 'sklearn.compose._column_transformer' from 'C:\\Users\\Lavakumar\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\sklearn\\compose\\_column_transformer.py'>
+2025-04-14 11:23:49,101 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 11:23:49,106 - werkzeug - INFO -  * Debugger PIN: 780-081-382
+2025-04-14 11:24:00,776 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:24:00] "GET / HTTP/1.1" 200 -
+2025-04-14 11:24:00,904 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:24:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-14 11:24:10,229 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:24:10,230 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:24:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:24:31,636 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:24:31,637 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:24:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:25:02,317 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:25:02,318 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:25:07,212 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:25:07,212 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:25:11,825 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:25:11,826 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:11] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:25:16,579 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:25:16,580 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:25:20,694 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:25:20,695 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:25:26,010 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:25:26,011 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:25:28,343 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:28] "GET / HTTP/1.1" 200 -
+2025-04-14 11:25:43,870 - __main__ - ERROR - Error in prediction: 'NoneType' object has no attribute 'predict'
+2025-04-14 11:25:43,871 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:25:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-14 11:26:38,346 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:38,383 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:38,384 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:39,592 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-14 11:26:42,613 - __main__ - ERROR - Error loading model: Can't get attribute '_RemainderColsList' on <module 'sklearn.compose._column_transformer' from 'C:\\Users\\Lavakumar\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\sklearn\\compose\\_column_transformer.py'>
+2025-04-14 11:26:42,628 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 11:26:42,632 - werkzeug - INFO -  * Debugger PIN: 780-081-382
+2025-04-14 11:26:43,931 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:43,933 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:43,934 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:44,138 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:44,139 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:44,393 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:44,433 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:44,434 - werkzeug - INFO -  * Detected change in 'l:\\final_year_project\\lastone - Copy (2)\\lastone - Copy\\fake_job_detector.py', reloading
+2025-04-14 11:26:45,084 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-14 11:26:48,190 - __main__ - ERROR - Error loading model: Can't get attribute '_RemainderColsList' on <module 'sklearn.compose._column_transformer' from 'C:\\Users\\Lavakumar\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\sklearn\\compose\\_column_transformer.py'>
+2025-04-14 11:26:48,206 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 11:26:48,213 - werkzeug - INFO -  * Debugger PIN: 780-081-382
+2025-04-14 11:29:05,339 - __main__ - INFO - Model loaded successfully
+2025-04-14 11:29:05,384 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.52:5000
+2025-04-14 11:29:05,385 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 11:29:05,404 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-14 11:29:08,285 - __main__ - INFO - Model loaded successfully
+2025-04-14 11:29:08,299 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 11:29:08,305 - werkzeug - INFO -  * Debugger PIN: 780-081-382
+2025-04-14 11:29:14,208 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:29:14] "GET / HTTP/1.1" 200 -
+2025-04-14 11:29:24,041 - __main__ - INFO - Prediction result: Fake with confidence 63.85%
+2025-04-14 11:29:24,042 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:29:24] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:29:49,244 - __main__ - INFO - Prediction result: Real with confidence 52.15%
+2025-04-14 11:29:49,246 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:29:49] "POST /predict HTTP/1.1" 200 -
+2025-04-14 11:29:56,402 - __main__ - INFO - Prediction result: Real with confidence 58.96%
+2025-04-14 11:29:56,403 - werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 11:29:56] "POST /predict HTTP/1.1" 200 -
+2025-04-16 22:55:51,957 - __main__ - INFO - Model loaded successfully
+2025-04-16 22:55:52,060 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.52:5000
+2025-04-16 22:55:52,060 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 22:55:52,102 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-16 22:55:56,154 - __main__ - INFO - Model loaded successfully
+2025-04-16 22:55:56,179 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 22:55:56,229 - werkzeug - INFO -  * Debugger PIN: 780-081-382
+2025-04-16 22:56:10,474 - werkzeug - ERROR - 192.168.162.52 - - [16/Apr/2025 22:56:10] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02ˇ\x01\x00\x01\x00\x00')
+2025-04-16 22:56:10,512 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 22:56:10] "[35m[1m\x16\x03\x01\x06‡\x01\x00\x06‹\x03\x03ﬁ+‹\x15Á™Ê\x1bOT›√4)\x90°zQÒ÷\x82X\x13X2\x89/x‘\x8bXx \x0e(™\x13\x16Ω\x07È«9\x00\x93:yÃ˚v⁄Ô¸√*3\x0bﬁ\\ß\x01U•hK\x00 JJ\x13\x01\x13\x02\x13\x03¿+¿/¿,¿0Ã©Ã®¿\x13¿\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s  \x00\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02ˇ\x01\x00\x01\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2025-04-16 22:56:10,517 - werkzeug - ERROR - 192.168.162.52 - - [16/Apr/2025 22:56:10] code 400, message Bad request version ('  \x13\x01\x13\x02\x13\x03¿+¿/¿,¿0Ã©Ã®¿\x13¿\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063JJ\x00\x00\x00')
+2025-04-16 22:56:10,518 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 22:56:10] "[35m[1m\x16\x03\x01\x06†\x01\x00\x06\x9c\x03\x03Y\x1e»©\x89L?\x11@\x82`[;ÏUtÀ´*;F¿≥XR5Æ\x0bYh>f Ø%«Ó$6¯Qd‘o\x07$MBBF[= YW\x1fπ)^–@\x00\x1c\x97+\x00   \x13\x01\x13\x02\x13\x03¿+¿/¿,¿0Ã©Ã®¿\x13¿\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063JJ\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2025-04-16 22:56:12,913 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 22:56:12] "GET / HTTP/1.1" 200 -
+2025-04-16 22:56:13,877 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 22:56:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-16 22:57:52,332 - __main__ - INFO - Prediction result: Real with confidence 53.23%
+2025-04-16 22:57:52,333 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 22:57:52] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:00:12,291 - __main__ - INFO - Prediction result: Real with confidence 58.96%
+2025-04-16 23:00:12,294 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:00:12] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:00:14,998 - __main__ - INFO - Prediction result: Real with confidence 58.96%
+2025-04-16 23:00:14,999 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:00:14] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:00:15,849 - __main__ - INFO - Prediction result: Real with confidence 58.96%
+2025-04-16 23:00:15,851 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:00:15] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:00:16,252 - __main__ - INFO - Prediction result: Real with confidence 58.96%
+2025-04-16 23:00:16,253 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:00:16] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:00:16,606 - __main__ - INFO - Prediction result: Real with confidence 58.96%
+2025-04-16 23:00:16,607 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:00:16] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:01:06,944 - __main__ - INFO - Prediction result: Fake with confidence 65.37%
+2025-04-16 23:01:06,945 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:01:06] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:01:55,745 - __main__ - INFO - Prediction result: Fake with confidence 65.37%
+2025-04-16 23:01:55,746 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:01:55] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:01:57,943 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:01:57] "GET / HTTP/1.1" 200 -
+2025-04-16 23:03:53,417 - __main__ - INFO - Prediction result: Real with confidence 74.85%
+2025-04-16 23:03:53,418 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:03:53] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:04:03,918 - __main__ - INFO - Prediction result: Real with confidence 74.85%
+2025-04-16 23:04:03,919 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:04:03] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:04:06,737 - __main__ - INFO - Prediction result: Real with confidence 74.85%
+2025-04-16 23:04:06,737 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:04:06] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:04:07,735 - __main__ - INFO - Prediction result: Real with confidence 74.85%
+2025-04-16 23:04:07,735 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:04:07] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:04:08,175 - __main__ - INFO - Prediction result: Real with confidence 74.85%
+2025-04-16 23:04:08,176 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:04:08] "POST /predict HTTP/1.1" 200 -
+2025-04-16 23:04:09,041 - __main__ - INFO - Prediction result: Real with confidence 74.85%
+2025-04-16 23:04:09,042 - werkzeug - INFO - 192.168.162.52 - - [16/Apr/2025 23:04:09] "POST /predict HTTP/1.1" 200 -
